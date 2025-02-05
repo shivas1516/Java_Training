@@ -10,7 +10,7 @@ public class InstanceAndStatic {
 		System.out.println("Instance Method");
 	}
 	
-	//Instance method
+	//Static method
 	static void StatMethod() {
 		System.out.println("Static Method");
 	}
@@ -44,11 +44,10 @@ public class InstanceAndStatic {
 		System.out.println(obj2.b);
 		
 		//Static Method Accessing
-		StatMethod objStat = new StatMethod();
-		objStat();
+		InstanceAndStatic.StatMethod();
 		
 		//Instance Method Accessing
-		InsMethod objStat = new StatMethod();
-		objStat();
+		InstanceAndStatic objInst = new InstanceAndStatic();
+		objInst.InsMethod();
 	}
 }

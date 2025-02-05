@@ -1,6 +1,6 @@
 package com.celcom.day2;
 
-public class ClassAndObject3 {
+public class TypesOfVariable {
 	int num1 = 15; // Instance or Object Variable
 	static int num2 = 10; // Class or Static Variable
 	
