@@ -2,8 +2,18 @@ package com.celcom.day2;
 
 public class InstanceAndStatic {
 	
-	static int a = 10;
-	int b = 20;
+	static int a = 10; //Static Variable
+	int b = 20; //Instance Variable
+	
+	//Instance method
+	void InsMethod() {
+		System.out.println("Instance Method");
+	}
+	
+	//Instance method
+	static void StatMethod() {
+		System.out.println("Static Method");
+	}
 	
 	public static void main(String args[]) {
 		
@@ -23,14 +33,22 @@ public class InstanceAndStatic {
 		obj1.a = 50;
 		obj1.b = 100;
 		
-		//Static Variable
+		//Changed Static Variable
 		System.out.println("Changed Static Variable");
 		System.out.println(obj1.a);
 		System.out.println(obj2.a);
 		
-		//Instance Variable
+		//Changed Instance Variable
 		System.out.println("Changed Instance Variable");
 		System.out.println(obj1.b);
 		System.out.println(obj2.b);
+		
+		//Static Method Accessing
+		StatMethod objStat = new StatMethod();
+		objStat();
+		
+		//Instance Method Accessing
+		InsMethod objStat = new StatMethod();
+		objStat();
 	}
 }
