@@ -6,7 +6,7 @@ import java.io.FileReader;
 public class KeyWordFinal1 {
 	
 	static void m1()  throws FileNotFoundException {
-		//Checked Exception
+		//Checked Exception. it is a complie-time Exception
 		FileReader obj = new FileReader("exmaple.txt");
 	}
 	

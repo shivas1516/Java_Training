@@ -1,4 +1,4 @@
-package com.celcom.Saturday_Assignment_8th_Feb_2025;
+package com.celcom.1SaturdayAssingment;
 import java.util.ArrayList;
 import java.util.Scanner;
 class Book {
