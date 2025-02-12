@@ -1,4 +1,4 @@
-package com.celcom.Saturday_Assignment_8th_Feb_2025;
+package com.celcom.SaturdayAssingment1;
 
 public class Employee {
 	String name, job;

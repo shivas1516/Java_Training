@@ -1,4 +1,4 @@
-package com.celcom.1SaturdayAssingment;
+package com.celcom.SaturdayAssingment1;
 import java.util.ArrayList;
 import java.util.Scanner;
 class Book {
